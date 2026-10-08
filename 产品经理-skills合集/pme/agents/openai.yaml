@@ -1,0 +1,6 @@
+interface:
+  display_name: "产品执行 PME"
+  short_description: "仅在显式调用时生成PRD、用户故事、验收标准、计划和测试材料"
+  default_prompt: "Use $pme to convert the confirmed product decision into reviewable delivery artifacts."
+policy:
+  allow_implicit_invocation: false

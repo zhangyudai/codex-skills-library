@@ -1,0 +1,6 @@
+interface:
+  display_name: "产品发现 PMD"
+  short_description: "仅在显式调用时执行产品发现、用户研究、假设验证和实验设计流程"
+  default_prompt: "Use $pmd to clarify this product opportunity and produce an evidence-based discovery plan."
+policy:
+  allow_implicit_invocation: false
